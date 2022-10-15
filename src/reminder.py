@@ -6,6 +6,7 @@ class PrefixedReminder:
         self.prefix = prefix
         self.text = prefix + '<placeholder_text>'
 
+
 #create class PoliteReminder that inherits from prefixed reminder
 class PoliteReminder(PrefixedReminder):
     def __init__(self, text):
